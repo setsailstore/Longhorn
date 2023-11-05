@@ -388,7 +388,7 @@ color: rgb(255, 255, 255);
         font-size: 22px;
         margin-top: 10px;
     }
-    .footer{
+  .footer{
         flex-direction: column;
         padding: 10px;
         justify-content: flex-start;
