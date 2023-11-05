@@ -185,6 +185,58 @@ a{
 .serv h2{
     font-size: 48px;
 }
+.footer{
+    display: flex;
+    padding: 20px;
+    align-content: flex-start;
+    background-image: url(img/top-view-set-spices-herbs-tea-rose-buds-red-chili-pepper-flakes-black-peppercorns-anise-seeds-clove-black-background-with-copy-space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -460px;
+    color: white;
+}
+.intro{
+    padding: 10px;
+}
+.intro p {
+    width: 550px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.linkto{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 20px;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.linkto h2{
+    font-size: 30px;
+}
+.linkto a{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.linkto a:hover{
+    font-size: 25px;
+}
+.contact{
+    width: 600px;
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.contact h2{
+    font-size: 30px;
+}
+.icons{
+    margin-top:10px
+}
+
 
 
 
