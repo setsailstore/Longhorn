@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header */
+#header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0,28,36);
+    background: linear-gradient(90deg, rgba(0,28,36,1) 0%, rgba(9,96,121,1) 100%, rgba(3,20,31,0.6560749299719888) 100%);
+    align-items: center;
+    padding: 25px;
+}
+#header img{
+    width: 250px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar{
+    display: flex;
+    margin: 20px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.mobile{
+    display: none;
+}
+.close{
+    display: none;
+}
+/* Hover Header*/
+.navbar a:hover{
+    color: grey;
+    font-size: 19px;
+}
+#header img:hover{
+    width: 300px;
+}
+ /* HERO SECTION */
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/top-view-set-spices-herbs-tea-rose-buds-red-chili-pepper-flakes-black-peppercorns-anise-seeds-clove-black-background-with-copy-space.jpg);
+    background-size: cover;
+    background-position-y:-300px ;
+    background-repeat: no-repeat;
+    height: 90vh;
+    
+}
+
+.text{
+    color:rgb(255, 255, 255);
+    padding: 25px 20px;
+   
+}
+
+.text h6{
+    font-size: 40px;
+    
+}
+.text h1{
+    font-size: 60px;
+  
+}
+.text p{
+    font-size: 20px;
+    max-width: 700px;
+    font-weight: 600;
+    line-height: 30px;
+}
+#hero span{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-image: linear-gradient(#009E2D ,#00C924 0%);
+    color:white;
+
+}
+#hero span:hover{
+    padding: 20px 25px;
+}
+#hero a{
+    text-decoration: none;
+}
+/* About us */
+.content{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+
+}
+.content img{
+    width: 450px;
+    height: 510px;
+    border-radius: 50px;
+    
+}
+.cntext{
+    margin-left: 40px;
+    
+}
+.cntext h1{
+    font-size: 60px;
+}
+.cntext p{
+    text-align:start;
+    width:700px;
+    margin-top: 20px;
+    
+}
+.learn{
+    background-color: black;
+    color: white;
+    border:none;
+    padding: 10px 30px;
+    position: relative;
+    top: 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.learn:hover{
+    padding: 15px 35px;
+}
+.bro{
+    text-align: center; 
+    padding: 50px; 
+    font-size: 50px;
+}
+
+/* Service */
+.serv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px;
+}
+
+.fitures{
+    display: flex;
+    justify-content: center;
+}
+.fitur{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
+    padding: 48px;
+    width: 399px; 
+    height: 356px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desc p{
+    text-align: center;
+    width: 303px;
+    height: 96px;
+}
+.desc i{
+    font-size: 60px;
+}
+.title{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.serv h2{
+    font-size: 48px;
+}
+
+
+
+
+
+
+
+/* Responsive Header mobile */
+@media (min-width:320px) and (max-width:500px){
+    #header img{
+        width: 150px;
+    }
+    #header{
+        display: flex;
+        justify-content: space-between;
+    }
+  .navbar{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,28,36);
+    background: linear-gradient(90deg, rgba(0,28,36,1) 0%, rgba(9,96,121,1) 100%, rgba(3,20,31,0.6560749299719888) 100%);
+    margin: 0;
+    /* transition: top 1s ease; */
+    display: none;
+  }
+  .navbar li{
+    padding: 10px;
+
+  }
+  .navbar .close{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 50px;
+    color: white;
+  }
+  .mobile{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px
+  }
+  #hero{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/flat-lay-spices-frame-with-copy-space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y:0px ;
+    
+    
+}
+
+.text{
+color:rgb(255, 255, 255);
+padding: 25px 20px;
+
+}
+
+.text h6{
+font-size: 30px;
+
+}
+.text h1{
+font-size: 50px;
+
+}
+.text p{
+font-size: 16px;
+width: 100%;
+line-height: 20px;
+color: rgb(255, 255, 255);
+
+
+}
+#about{
+    margin-top: 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+}
+.content img{
+    width: 320px;
+    height: 360px;
+    border-radius: 40px;
+    
+}
+
+.cntext h1{
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: start;
+}
+.cntext p{
+    text-align:start;
+    width:310px;
+    margin-top: 20px;
+    
+}
+   
+    .serv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .serv h2{
+        font-size: 38px;
+    }
+    
+    .fitures{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fitur{
+        box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
+        padding: 48px;
+        width: 399px; 
+        height: 350px;
+    }
+    .desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .desc p{
+        text-align: center;
+        width: 303px;
+        height: 96px;
+    }
+    .desc i{
+        font-size: 60px;
+    }
+    .title{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+}
