@@ -336,4 +336,52 @@ color: rgb(255, 255, 255);
         font-size: 22px;
         margin-top: 10px;
     }
+    .footer{
+        flex-direction: column;
+        padding: 10px;
+        justify-content: flex-start;
+        background: rgb(0,28,36);
+        background: linear-gradient(90deg, rgba(0,28,36,1) 0%, rgba(9,96,121,1) 100%, rgba(3,20,31,0.6560749299719888) 100%);
+        
+    }
+    .icons{
+        margin-top: 0px;
+    }
+    .intro{
+    padding: 10px;
+}
+.intro p {
+    width: 300px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.linkto{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0px;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.linkto h2{
+    font-size: 30px;
+}
+.linkto a{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.contact{
+    width: 300px;
+    margin:0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.contact h2{
+    font-size: 30px;
+}
+.icons{
+    margin-top:10px
+}
 }
